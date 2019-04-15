@@ -9,6 +9,9 @@
   <component name="ChangeListManager">
     <list default="true" id="911b8aed-ae89-4d07-8a5a-572a4e10c8d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/main/resources/spring/applicationContext_mange.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/resources/spring/applicationContext_mange.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/main/resources/spring/spring-sercurity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/src/main/resources/spring/spring_dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/resources/spring/spring_dao.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,7 +58,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage/src/main/resources/spring/spring-sercurity.xml">
+        <entry file="file://$PROJECT_DIR$/manage/src/main/resources/spring/spring-security.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
               <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
@@ -84,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/manage/src/main/resources/spring/applicationContext_mange.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="184">
+              <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -243,8 +246,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/manage/pom.xml" />
         <option value="$PROJECT_DIR$/manage/src/main/resources/spring/spring-sercurity.xml" />
-        <option value="$PROJECT_DIR$/manage/src/main/resources/spring/applicationContext_mange.xml" />
         <option value="$PROJECT_DIR$/manage/src/main/resources/spring/spring_dao.xml" />
+        <option value="$PROJECT_DIR$/manage/src/main/resources/spring/applicationContext_mange.xml" />
       </list>
     </option>
   </component>
@@ -666,7 +669,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554737807086" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555310683424" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -995,12 +998,20 @@
       <workItem from="1554819467972" duration="1417000" />
       <workItem from="1554821424676" duration="623000" />
       <workItem from="1555063007049" duration="547000" />
-      <workItem from="1555297630516" duration="3131000" />
+      <workItem from="1555297630516" duration="4894000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1555309114224</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555309114224</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="474640000" />
+    <option name="totallyTimeSpent" value="476403000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1013,6 +1024,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -1020,7 +1032,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" sideWeight="0.0966325" side_tool="true" weight="0.28812414" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.9033675" visible="true" weight="0.23443815" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.9033675" visible="true" weight="0.23443815" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.502021" side_tool="true" weight="0.5921986" />
       <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49932525" weight="0.32446808" />
@@ -1033,7 +1045,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.4995958" weight="0.32624114" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4987874" visible="true" weight="0.6181172" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987874" weight="0.6181172" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32624114" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.3280142" />
       <window_info anchor="bottom" id="Spring" order="14" sideWeight="0.49932525" weight="0.3268206" />
@@ -1054,6 +1066,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1382,7 +1398,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage/src/main/resources/spring/spring-sercurity.xml">
+    <entry file="file://$PROJECT_DIR$/manage/src/main/resources/spring/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
@@ -1440,8 +1456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage/src/main/resources/spring/applicationContext_mange.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="184">
+          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
         </state>
       </provider>
     </entry>
