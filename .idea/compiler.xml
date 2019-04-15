@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lee-support-jpa" />
+        <module name="manage" />
+        <module name="service" />
+        <module name="soa-dao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="biz-core" target="1.5" />
+      <module name="comm" target="1.5" />
+      <module name="comment" target="1.5" />
+      <module name="dao" target="1.5" />
+      <module name="daol" target="1.5" />
+      <module name="lee-dao" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+	<!-- Name属性用于定义持久化单元的名字 (name必选,空值也合法);
+    transaction-type 指定事务类型(可选)  -->
+	<persistence-unit name="leeFamily" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>com.lee.dao.mysql.UserPO</class>
+		<class>com.lee.dao.mysql.LogPo</class>
+	</persistence-unit>
+</persistence>
