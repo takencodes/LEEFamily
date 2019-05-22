@@ -11,8 +11,10 @@
       <change afterPath="$PROJECT_DIR$/manage/manage.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage/target/classes/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/spring/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/target/classes/spring/spring_dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/spring/spring_dao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage/target/manage.war" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/spring/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/spring/spring_dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/spring/spring_dao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/lee-support-jpa-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/lee-support-jpa-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/service-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/soa-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/soa-dao-1.0-SNAPSHOT.jar" afterDir="false" />
@@ -70,20 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
+            <state relative-caret-position="55">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/repository/Log/LogRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -1034,7 +1027,7 @@
       <workItem from="1558404576479" duration="2344000" />
       <workItem from="1558451986699" duration="4097000" />
       <workItem from="1558524220874" duration="4263000" />
-      <workItem from="1558532927672" duration="251000" />
+      <workItem from="1558532927672" duration="579000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1555309114224</created>
@@ -1047,7 +1040,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="574602000" />
+    <option name="totallyTimeSpent" value="574930000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1060,7 +1053,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Persistence" side_tool="true" />
       <window_info id="Image Layers" order="0" />
@@ -1069,7 +1061,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" sideWeight="0.3587922" side_tool="true" weight="0.3160873" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.26287743" visible="true" weight="0.24252222" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.26287743" visible="true" weight="0.24252222" />
       <window_info id="Structure" order="7" sideWeight="0.73712254" side_tool="true" weight="0.3160873" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.502021" side_tool="true" weight="0.5921986" />
       <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49932525" weight="0.3232682" />
@@ -1082,7 +1074,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.4995958" weight="0.3250444" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987874" weight="0.6181172" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4987874" visible="true" weight="0.6181172" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.3250444" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.3280142" />
       <window_info anchor="bottom" id="Spring" order="14" sideWeight="0.49932525" weight="0.3268206" />
@@ -1609,13 +1601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage/src/main/resources/spring/spring-data-jpa.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="851">
@@ -1634,6 +1619,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
