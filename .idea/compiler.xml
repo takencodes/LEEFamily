@@ -12,13 +12,5 @@
         <module name="soa-dao" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="biz-core" target="1.5" />
-      <module name="comm" target="1.5" />
-      <module name="comment" target="1.5" />
-      <module name="dao" target="1.5" />
-      <module name="daol" target="1.5" />
-      <module name="lee-dao" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>

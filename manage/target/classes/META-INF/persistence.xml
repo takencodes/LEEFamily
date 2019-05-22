@@ -4,7 +4,5 @@
     transaction-type 指定事务类型(可选)  -->
 	<persistence-unit name="leeFamily" transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<class>com.lee.dao.mysql.UserPO</class>
-		<class>com.lee.dao.mysql.LogPo</class>
 	</persistence-unit>
 </persistence>

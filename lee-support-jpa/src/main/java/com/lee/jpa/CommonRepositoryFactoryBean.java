@@ -14,9 +14,9 @@ public class CommonRepositoryFactoryBean<T extends JpaRepository<Object, Seriali
      *
      * @param repositoryInterface must not be {@literal null}.
      */
-    public CommonRepositoryFactoryBean(Class<? extends T> repositoryInterface) {
-        super(repositoryInterface);
-    }
+//    public CommonRepositoryFactoryBean(Class<? extends T> repositoryInterface) {
+//        super(repositoryInterface);
+//    }
 
     @Override
     protected RepositoryFactorySupport createRepositoryFactory(EntityManager em) {

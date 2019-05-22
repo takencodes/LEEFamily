@@ -6,6 +6,5 @@
     <!-- 开启注解 -->
     <context:annotation-config/>
    <import resource="classpath*: applicationContext_servlet.xml" />
-    <import resource="
-    spring-sercurity.xml"/>
+    <import resource="classpath*:spring/spring-security.xml"/>
 </beans>

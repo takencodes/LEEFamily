@@ -15,10 +15,12 @@
         <module>lee-support-jpa</module>
     </modules>
     <properties>
-        <spring.version>5.0.6.RELEASE</spring.version>
-        <aop.version>1.7.4</aop.version>
+        <spring.version>4.0.6.RELEASE</spring.version>
         <slf4j.version>1.7.22</slf4j.version>
         <log4j.version>1.2.16</log4j.version>
+        <spring-data-jpa.version>1.7.4.RELEASE</spring-data-jpa.version>
+        <spring-security.version>3.2.5.RELEASE</spring-security.version>
+        <spring-aop.version>4.0.6.RELEASE</spring-aop.version>
     </properties>
     <dependencies>
         <dependency>
@@ -31,16 +33,27 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
-            <version>${spring.version}</version>
+            <version>${spring-security.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-config</artifactId>
-            <version>${spring.version}</version>
+            <version>${spring-security.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-taglibs</artifactId>
+            <version>${spring-security.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
             <version>${spring.version}</version>
         </dependency>
         <dependency>
@@ -101,18 +114,13 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-jpa</artifactId>
-            <version>2.0.7.RELEASE</version>
+            <version>${spring-data-jpa.version}</version>
         </dependency>
         <!--aop-->
         <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjrt</artifactId>
-            <version>${aop.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>${aop.version}</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>${spring-aop.version}</version>
         </dependency>
         <dependency>
             <groupId>cglib</groupId>
@@ -187,6 +195,16 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.16</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
         </dependency>
     </dependencies>
     <build>
