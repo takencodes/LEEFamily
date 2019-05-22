@@ -8,90 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="911b8aed-ae89-4d07-8a5a-572a4e10c8d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/manage/src/main/java/com/lee/security/ManageLogoutSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/src/main/java/test/FileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/src/main/java/test/SAXParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/src/main/java/test/WebServiceInvokeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/src/main/java/test/httpClients.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage/src/main/resources/spring/spring-data-jpa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/lee/service/admin/AdminManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/lee/service/admin/AdminManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/com/lee/service/admin/MenuGroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/NameAndValueAndDescriptionAbleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/NameAndValueAndDescriptionAbleEnumConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/admin/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/admin/AdminAuthority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/admin/AdminLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/admin/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/admin/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/admin/MenuGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/admin/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/admin/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/admin/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/vo/admin/AdminEditVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/vo/admin/MenuGroupReqVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/repository/admin/AdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/repository/admin/MainMenuRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/repository/admin/MenuGroupRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/repository/admin/MenuItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/repository/admin/ResourceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/repository/admin/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/manage_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/manage_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee-support-jpa/src/main/java/com/lee/jpa/CommonRepositoryFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/lee-support-jpa/src/main/java/com/lee/jpa/CommonRepositoryFactoryBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lee-support-jpa/target/classes/com/lee/jpa/CommonRepositoryFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/lee-support-jpa/target/classes/com/lee/jpa/CommonRepositoryFactoryBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/src/main/java/com/lee/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/com/lee/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/src/main/java/test/XmlExchang.java" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/java/test/XmlExchang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/src/main/resources/spring/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/resources/spring/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/src/main/resources/spring/spring_dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/resources/spring/spring_dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/META-INF/manage.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/com/lee/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/com/lee/interceptor/LoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/spring/applicationContext_mange.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/spring/applicationContext_mange.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/spring/spring-sercurity.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/spring/spring_dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/spring/spring_dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/classes/test/XmlExchang.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/classes/test/XmlExchang.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage.war" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/META-INF/manage.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/com/lee/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/com/lee/interceptor/LoginInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/spring/applicationContext_mange.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/spring/applicationContext_mange.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/spring/spring-sercurity.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/spring/spring_dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/spring/spring_dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/test/XmlExchang.class" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/classes/test/XmlExchang.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/aspectjrt-1.7.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/aspectjweaver-1.7.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/lee-support-jpa-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/lee-support-jpa-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/soa-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/soa-dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-aop-5.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-aspects-5.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-beans-5.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-context-5.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-context-support-5.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-core-5.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-data-commons-2.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-data-jpa-2.0.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-expression-4.3.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-jcl-5.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-jdbc-5.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-orm-5.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-security-acl-4.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-security-config-4.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-security-core-4.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-security-taglibs-4.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-security-web-4.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-test-5.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-tx-5.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-web-5.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/lib/spring-webmvc-5.0.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage/target/manage/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/manage/target/manage/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -170,7 +87,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/admin/Admin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="55">
               <caret line="78" column="14" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="14" />
             </state>
           </provider>
@@ -1101,7 +1018,7 @@
       <workItem from="1558353580832" duration="9670000" />
       <workItem from="1558404576479" duration="2344000" />
       <workItem from="1558451986699" duration="4097000" />
-      <workItem from="1558524220874" duration="2399000" />
+      <workItem from="1558524220874" duration="3944000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1555309114224</created>
@@ -1114,7 +1031,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="570316000" />
+    <option name="totallyTimeSpent" value="571861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1127,7 +1044,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -1148,7 +1064,7 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.4995958" weight="0.3250444" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987874" weight="0.6181172" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4987874" visible="true" weight="0.6181172" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.3250444" />
       <window_info anchor="bottom" id="TODO" order="13" weight="0.3280142" />
       <window_info anchor="bottom" id="Spring" order="14" sideWeight="0.49932525" weight="0.3268206" />
@@ -1695,7 +1611,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/soa-dao/src/main/java/com/lee/dao/mysql/admin/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="55">
           <caret line="78" column="14" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="14" />
         </state>
       </provider>
