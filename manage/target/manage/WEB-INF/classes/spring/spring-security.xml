@@ -44,6 +44,7 @@
         <beans:property name="defaultTargetUrl" value="/login.do"/>
         <beans:property name="alwaysUseDefaultTargetUrl" value="true"/>
     </beans:bean>
+    <beans:bean id="userDetailsManager"/>
 
     <global-method-security pre-post-annotations="enabled" secured-annotations="enabled"
                             jsr250-annotations="enabled"/>
